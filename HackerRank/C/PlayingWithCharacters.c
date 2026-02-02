@@ -3,24 +3,20 @@
 #include <math.h>
 #include <stdlib.h>
 
-int main() 
+int main()
 {
-    char ch,s[99],sen[99];
-    
-    
-    scanf("%c",&ch);
-    
-    
-    scanf("%s",s);
-    
-    
-    scanf(" %[^\n]%*c", sen);
-    
-    printf("%c\n",ch);
-    printf("%s\n",s);
-    printf("%s",sen);   
+    char ch, s[99], sen[99];
 
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    scanf("%c", &ch);
+
+    scanf("%s", s);
+
+    scanf(" %[^\n]%*c", sen);
+
+    printf("%c\n", ch);
+    printf("%s\n", s);
+    printf("%s", sen);
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */
     return 0;
 }
-

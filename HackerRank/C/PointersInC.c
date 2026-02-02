@@ -1,22 +1,24 @@
 #include <stdio.h>
 
-void update(int *a,int *b) {
+void update(int *a, int *b)
+{
     int *c;
-    *c=*a;
+    *c = *a;
 
-    *a=*a+*b;
+    *a = *a + *b;
 
-    if(*b>*c){
-        *b=*b-*c;
+    if (*b > *c)
+    {
+        *b = *b - *c;
     }
-    else {
-        *b=*c-*b;
+    else
+    {
+        *b = *c - *b;
     }
-
-
 }
 
-int main() {
+int main()
+{
     int a, b;
     int *pa = &a, *pb = &b;
 
