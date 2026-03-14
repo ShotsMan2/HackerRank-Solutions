@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1773059117 source:c:\users\uysal\onedrive\masaüstü\hackerrank-solutions\hackerrank\c\rekursif_fonksiyonlar_1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
